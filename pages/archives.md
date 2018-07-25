@@ -2,7 +2,7 @@
 layout: page
 title: All articles are here
 titlebar: archives
-subtitle: 所有分类文章汇总
+subtitle: 按时间拍排序的所有文章
 menu: archives
 css: ['blog-page.css']
 permalink: /archives.html
