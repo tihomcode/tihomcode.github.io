@@ -1,12 +1,12 @@
 ---
 layout: page
-title: MySQL系列文章
-titlebar: MySQL
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; MySQL 系列
-menu: mysql
+title: 源码阅读 系列文章
+titlebar: 源码
+subtitle: <span class="mega-octicon octicon-flame"></span>&nbsp;&nbsp; 精读源码，与大牛们思想碰撞
+menu: source
 css: ['blog-page.css']
-permalink: /mysql
-keywords: Mysql,InnoDB,集群,部署,搭建,Mysql 教程
+permalink: /source
+keywords: 源码,source,阅读,
 ---
 
 <div class="row">
@@ -15,7 +15,7 @@ keywords: Mysql,InnoDB,集群,部署,搭建,Mysql 教程
     
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='mysql'  or post.keywords contains 'mysql' %}
+                {% if post.category=='源码'  or post.keywords contains 'source' or post.keywords contains '源码' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>

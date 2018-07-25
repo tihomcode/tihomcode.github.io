@@ -1,12 +1,11 @@
 ---
 layout: page
-title: MySQL系列文章
-titlebar: MySQL
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; MySQL 系列
-menu: mysql
+title: Java基础 系列文章
+titlebar: j2se
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 勿在浮沙筑高楼
+menu: j2se
 css: ['blog-page.css']
-permalink: /mysql
-keywords: Mysql,InnoDB,集群,部署,搭建,Mysql 教程
+permalink: /j2se
 ---
 
 <div class="row">
@@ -15,7 +14,7 @@ keywords: Mysql,InnoDB,集群,部署,搭建,Mysql 教程
     
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='mysql'  or post.keywords contains 'mysql' %}
+                {% if post.category=='j2se' or post.keywords contains 'Java基础' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
