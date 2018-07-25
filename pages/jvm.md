@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Jvm系列文章
+title: JVM系列文章
 titlebar: jvm
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; jvm系列文章
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 深入了解Java虚拟机
 menu: jvm
 css: ['blog-page.css']
 permalink: /jvm
@@ -11,7 +11,7 @@ permalink: /jvm
 <div class="row">
 
     <div class="col-md-12">
-
+    
         <ul id="posts-list">
             {% for post in site.posts %}
                 {% if post.category=='jvm' %}
@@ -25,10 +25,10 @@ permalink: /jvm
                 {% endif %}
             {% endfor %}
         </ul> 
-
+    
         <!-- Pagination -->
         {% include pagination.html %}
-
+    
         <!-- Comments -->
        <div class="comment">
          {% include comments.html %}
@@ -41,6 +41,6 @@ permalink: /jvm
 
         // Enable bootstrap tooltip
         $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-
+    
     });
 </script>
