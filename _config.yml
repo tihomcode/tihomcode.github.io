@@ -13,7 +13,7 @@ email: 13652493839@163.com
 description: 本站是TiHom的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud、SSM、JVM、中间件使用、系统监控等相关的研究与知识分享。
 keywords: 
 encoding: "utf-8"
-favicon: favicon
+favicon: favicon.png
 
 repository: tihomcode/tihomcode.github.io
 github_url: https://github.com/tihomcode
